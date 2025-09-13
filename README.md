@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component - Solve By Mr.Momin 🚩
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
