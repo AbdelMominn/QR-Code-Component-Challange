@@ -1,26 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Outfit:wght@700&display=swap');
 body{
     margin:0;
+    background:hsl(212, 45%, 89%);
 }
-.qr-code-container{
-    display: flex;
+.qr-code-scanner-container{
+    display:flex;
     justify-content: center;
-    align-items: center;
-    height:100vh;
-    background-color: hsl(212, 45%, 89%);
-
+    align-items:center;
+    height: 100vh;
 }
 .qr-code-scanner{
     width:300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
 }
-.qr-code-scanner .qr-code-image{
-    display: flex;
+.qr-code-scanner-image{
+    display:flex;
     justify-content: center;
-    margin-top:25px;
 }
-.qr-code-scanner img{
+.qr-code-scanner-image img{
     width:250px;
+    margin-top:25px;
     border-radius: 5px;
-    
+}
+.qr-code-text-box{
+    margin: 20px;
+    text-align: center;
+}
+.qr-code-text-box h2,p{
+    font-family: "Outfit", sans-serif;
+}
+.qr-code-text-box h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.qr-code-text-box p{
+    font-weight: 400;
+    color:hsl(216, 15%, 48%);
 }
